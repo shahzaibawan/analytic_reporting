@@ -1,0 +1,33 @@
+/* HEADER STYLES ================*/
+ul {
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+header {
+  background: #fff;
+  min-height: 70px;
+  .tagline {
+    margin-top: 20px;
+  }
+}
+.user-info {
+  position: relative;
+  margin-top: 20px;
+  .welcome-note {
+    font-size: 12px;
+    margin-right: 50px;
+  }
+  .avatar {
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.avatar {
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+}
